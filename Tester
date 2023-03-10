@@ -37,6 +37,10 @@ layerSection:NewSlider("Jumppower", "jumphigh", 350, 50, function(s) -- 500 (Max
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
+layerSection:NewButton("Small", "You avatar get smaller work only r15", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OfficialAyanokoji/Small/main/Small"))();
+end)
+
 
 -- Brookhaven
 local Player = Window:NewTab("Brookhaven")
