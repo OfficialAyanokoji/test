@@ -61,3 +61,11 @@ local DoorsSection = Player:NewSection("Doors")
 DoorsSection:NewButton("Doors", "Doors", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
 end)
+
+
+-- GreenVile
+local Player = Window:NewTab("GreenVille")
+local GreenVilleSection = Player:NewSection("GreenVille")
+GreenVilleSection:NewButton("Car Tuning", "Car Tuning", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/soapware/auto/main/zone.car", true))()
+end)
