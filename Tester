@@ -69,3 +69,11 @@ local GreenVilleSection = Player:NewSection("GreenVille")
 GreenVilleSection:NewButton("Car Tuning", "Car Tuning", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/soapware/auto/main/zone.car", true))()
 end)
+
+
+-- Please donate
+local Player = Window:NewTab("Pls Donate")
+local PleasedonateSection = Player:NewSection("Pls Donate")
+PleasedonateSection:NewButton("Pls Donate", "Pls Donate", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/pd1", true))()
+end)
